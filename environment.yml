@@ -1,0 +1,11 @@
+name: ds
+channels:
+  - biobakery
+  - conda-forge
+  - bioconda
+  - defaults
+  - intel
+  - anaconda-fusion
+dependencies:
+  - python=3.9
+prefix: /home/umii/tpengo/.conda/envs/ds
