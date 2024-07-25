@@ -1,11 +1,15 @@
 name: ds
 channels:
-  - defaults
+  - anaconda
+  - pytorch
+  - nvidia
+
 dependencies:
   - python=3.11
   - pandas
   - jupyterlab
   - pytorch
+  - pytorch-cuda=12.4
   - torchvision
   - seaborn
   - matplotlib

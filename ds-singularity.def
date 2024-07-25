@@ -3,10 +3,10 @@ Bootstrap: docker
 From: continuumio/miniconda3
 
 %files
-    environment.yml
+    ds.yml
 
 %post
-    /opt/conda/bin/conda env create -f environment.yml
+    /opt/conda/bin/conda env create -f ds.yml
 
 %runscript
     exec /opt/conda/envs/ds/bin/"$@"
