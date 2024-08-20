@@ -1,10 +1,11 @@
 name: ds
 channels:
-  - anaconda
+  - conda-forge
   - pytorch
   - nvidia
 
 dependencies:
+  - cudatoolkit=cuda-12.4.1
   - python=3.11
   - pandas
   - jupyterlab
