@@ -1,6 +1,6 @@
 Bootstrap: docker
 
-From: continuumio/miniconda3
+From: condaforge/miniforge
 
 %files
     ds.yml
