@@ -1,6 +1,6 @@
 name: ds
 channels:
-  - anaconda
+  - conda-forge
   - pytorch
   - nvidia
 
