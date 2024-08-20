@@ -1,6 +1,6 @@
 Bootstrap: docker
 
-From: condaforge/miniforge
+From: condaforge/miniforge3
 
 %files
     ds.yml
