@@ -5,8 +5,8 @@ channels:
   - nvidia
 
 dependencies:
-  - cudatoolkit=cuda-12.4.1
   - python=3.11
+  - nvidia/label/cuda-12.4.0::cuda-toolkit
   - pandas
   - jupyterlab
   - pytorch
